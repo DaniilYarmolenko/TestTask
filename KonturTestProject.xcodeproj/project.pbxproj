@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261BE85C27E37EAB00BE80B0 /* FirstViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BE85B27E37EAB00BE80B0 /* FirstViewControllerExtension.swift */; };
+		261BE85E27E3AE4600BE80B0 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BE85D27E3AE4500BE80B0 /* PagingCollectionViewLayout.swift */; };
+		261BE86027E4B0D400BE80B0 /* StackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BE85F27E4B0D300BE80B0 /* StackViewExtension.swift */; };
+		261BE86227E4E74900BE80B0 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BE86127E4E74800BE80B0 /* ThemeColors.swift */; };
+		261BE87227E4EA3D00BE80B0 /* LabGrotesque-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE87127E4EA3900BE80B0 /* LabGrotesque-Black.ttf */; };
+		261BE87327E4EA3F00BE80B0 /* LabGrotesque-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86927E4EA3800BE80B0 /* LabGrotesque-BlackItalic.ttf */; };
+		261BE87427E4EA4200BE80B0 /* LabGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86527E4EA3800BE80B0 /* LabGrotesque-Bold.ttf */; };
+		261BE87527E4EA4400BE80B0 /* LabGrotesque-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86D27E4EA3800BE80B0 /* LabGrotesque-BoldItalic.ttf */; };
+		261BE87627E4EA4700BE80B0 /* LabGrotesque-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86B27E4EA3800BE80B0 /* LabGrotesque-Italic.ttf */; };
+		261BE87727E4EA4A00BE80B0 /* LabGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86A27E4EA3800BE80B0 /* LabGrotesque-Light.ttf */; };
+		261BE87827E4EA4C00BE80B0 /* LabGrotesque-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86C27E4EA3800BE80B0 /* LabGrotesque-LightItalic.ttf */; };
+		261BE87927E4EA4E00BE80B0 /* LabGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE87027E4EA3900BE80B0 /* LabGrotesque-Medium.ttf */; };
+		261BE87A27E4EA5100BE80B0 /* LabGrotesque-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86E27E4EA3900BE80B0 /* LabGrotesque-MediumItalic.ttf */; };
+		261BE87B27E4EA5300BE80B0 /* LabGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86727E4EA3800BE80B0 /* LabGrotesque-Regular.ttf */; };
+		261BE87C27E4EA5600BE80B0 /* LabGrotesque-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86827E4EA3800BE80B0 /* LabGrotesque-Thin.ttf */; };
+		261BE87D27E4EA5800BE80B0 /* LabGrotesque-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86427E4EA3800BE80B0 /* LabGrotesque-ThinItalic.ttf */; };
+		261BE87E27E4EA5A00BE80B0 /* LabGrotesqueMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86627E4EA3800BE80B0 /* LabGrotesqueMono-Bold.ttf */; };
+		261BE87F27E4EA5C00BE80B0 /* LabGrotesqueMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261BE86F27E4EA3900BE80B0 /* LabGrotesqueMono.ttf */; };
+		2628F08A27E7852700B692C9 /* LaunchViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628F08927E7852700B692C9 /* LaunchViewControllerExtension.swift */; };
+		2628F08E27E7981B00B692C9 /* LaunchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628F08D27E7981B00B692C9 /* LaunchCollectionViewCell.swift */; };
+		2628F09127E7D47800B692C9 /* VerticalAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628F09027E7D47800B692C9 /* VerticalAlignedLabel.swift */; };
+		263A0A6627E5277800F44B51 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A0A6527E5277800F44B51 /* LaunchViewController.swift */; };
+		263F018927E2590000D0EEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F018827E2590000D0EEF1 /* AppDelegate.swift */; };
+		263F018B27E2590000D0EEF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F018A27E2590000D0EEF1 /* SceneDelegate.swift */; };
+		263F018D27E2590000D0EEF1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F018C27E2590000D0EEF1 /* FirstViewController.swift */; };
+		263F019227E2590500D0EEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263F019127E2590500D0EEF1 /* Assets.xcassets */; };
+		263F019527E2590500D0EEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263F019327E2590500D0EEF1 /* LaunchScreen.storyboard */; };
+		263F019D27E25A7C00D0EEF1 /* ModelRocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F019C27E25A7C00D0EEF1 /* ModelRocket.swift */; };
+		263F019F27E25F3A00D0EEF1 /* RocketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F019E27E25F3A00D0EEF1 /* RocketCollectionViewCell.swift */; };
+		263F01A127E260A400D0EEF1 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F01A027E260A400D0EEF1 /* NetworkDataFetch.swift */; };
+		263F01A327E260D800D0EEF1 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F01A227E260D800D0EEF1 /* NetworkRequest.swift */; };
+		263F01A727E2626A00D0EEF1 /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F01A627E2626A00D0EEF1 /* LaunchModel.swift */; };
+		26CEB46527E6416700E55355 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CEB46427E6416700E55355 /* SettingsViewController.swift */; };
+		7D2BE3D196C0310C8D4B6CAE /* Pods_KonturTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DA21D7B79F298CB738B15E /* Pods_KonturTestProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22DA21D7B79F298CB738B15E /* Pods_KonturTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonturTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		261BE85B27E37EAB00BE80B0 /* FirstViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerExtension.swift; sourceTree = "<group>"; };
+		261BE85D27E3AE4500BE80B0 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		261BE85F27E4B0D300BE80B0 /* StackViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewExtension.swift; sourceTree = "<group>"; };
+		261BE86127E4E74800BE80B0 /* ThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		261BE86427E4EA3800BE80B0 /* LabGrotesque-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-ThinItalic.ttf"; sourceTree = "<group>"; };
+		261BE86527E4EA3800BE80B0 /* LabGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		261BE86627E4EA3800BE80B0 /* LabGrotesqueMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesqueMono-Bold.ttf"; sourceTree = "<group>"; };
+		261BE86727E4EA3800BE80B0 /* LabGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		261BE86827E4EA3800BE80B0 /* LabGrotesque-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Thin.ttf"; sourceTree = "<group>"; };
+		261BE86927E4EA3800BE80B0 /* LabGrotesque-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BlackItalic.ttf"; sourceTree = "<group>"; };
+		261BE86A27E4EA3800BE80B0 /* LabGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		261BE86B27E4EA3800BE80B0 /* LabGrotesque-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Italic.ttf"; sourceTree = "<group>"; };
+		261BE86C27E4EA3800BE80B0 /* LabGrotesque-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-LightItalic.ttf"; sourceTree = "<group>"; };
+		261BE86D27E4EA3800BE80B0 /* LabGrotesque-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-BoldItalic.ttf"; sourceTree = "<group>"; };
+		261BE86E27E4EA3900BE80B0 /* LabGrotesque-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-MediumItalic.ttf"; sourceTree = "<group>"; };
+		261BE86F27E4EA3900BE80B0 /* LabGrotesqueMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LabGrotesqueMono.ttf; sourceTree = "<group>"; };
+		261BE87027E4EA3900BE80B0 /* LabGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		261BE87127E4EA3900BE80B0 /* LabGrotesque-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LabGrotesque-Black.ttf"; sourceTree = "<group>"; };
+		2628F08927E7852700B692C9 /* LaunchViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewControllerExtension.swift; sourceTree = "<group>"; };
+		2628F08D27E7981B00B692C9 /* LaunchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCollectionViewCell.swift; sourceTree = "<group>"; };
+		2628F09027E7D47800B692C9 /* VerticalAlignedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalAlignedLabel.swift; sourceTree = "<group>"; };
+		263A0A6527E5277800F44B51 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		263F018527E2590000D0EEF1 /* KonturTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonturTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263F018827E2590000D0EEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		263F018A27E2590000D0EEF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		263F018C27E2590000D0EEF1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		263F019127E2590500D0EEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263F019427E2590500D0EEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		263F019627E2590500D0EEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263F019C27E25A7C00D0EEF1 /* ModelRocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRocket.swift; sourceTree = "<group>"; };
+		263F019E27E25F3A00D0EEF1 /* RocketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketCollectionViewCell.swift; sourceTree = "<group>"; };
+		263F01A027E260A400D0EEF1 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		263F01A227E260D800D0EEF1 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		263F01A627E2626A00D0EEF1 /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
+		26CEB46427E6416700E55355 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7AB11B0B444B82A79024631D /* Pods-KonturTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonturTestProject.debug.xcconfig"; path = "Target Support Files/Pods-KonturTestProject/Pods-KonturTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A41B539B079F271B60146045 /* Pods-KonturTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonturTestProject.release.xcconfig"; path = "Target Support Files/Pods-KonturTestProject/Pods-KonturTestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263F018227E2590000D0EEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BE3D196C0310C8D4B6CAE /* Pods_KonturTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261BE86327E4EA1A00BE80B0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				261BE87127E4EA3900BE80B0 /* LabGrotesque-Black.ttf */,
+				261BE86927E4EA3800BE80B0 /* LabGrotesque-BlackItalic.ttf */,
+				261BE86527E4EA3800BE80B0 /* LabGrotesque-Bold.ttf */,
+				261BE86D27E4EA3800BE80B0 /* LabGrotesque-BoldItalic.ttf */,
+				261BE86B27E4EA3800BE80B0 /* LabGrotesque-Italic.ttf */,
+				261BE86A27E4EA3800BE80B0 /* LabGrotesque-Light.ttf */,
+				261BE86C27E4EA3800BE80B0 /* LabGrotesque-LightItalic.ttf */,
+				261BE87027E4EA3900BE80B0 /* LabGrotesque-Medium.ttf */,
+				261BE86E27E4EA3900BE80B0 /* LabGrotesque-MediumItalic.ttf */,
+				261BE86727E4EA3800BE80B0 /* LabGrotesque-Regular.ttf */,
+				261BE86827E4EA3800BE80B0 /* LabGrotesque-Thin.ttf */,
+				261BE86427E4EA3800BE80B0 /* LabGrotesque-ThinItalic.ttf */,
+				261BE86627E4EA3800BE80B0 /* LabGrotesqueMono-Bold.ttf */,
+				261BE86F27E4EA3900BE80B0 /* LabGrotesqueMono.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2628F08727E784A500B692C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				263F019E27E25F3A00D0EEF1 /* RocketCollectionViewCell.swift */,
+				2628F08D27E7981B00B692C9 /* LaunchCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2628F08827E784BD00B692C9 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				261BE85D27E3AE4500BE80B0 /* PagingCollectionViewLayout.swift */,
+				261BE85F27E4B0D300BE80B0 /* StackViewExtension.swift */,
+				2628F09027E7D47800B692C9 /* VerticalAlignedLabel.swift */,
+				261BE86127E4E74800BE80B0 /* ThemeColors.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		2628F08F27E7982F00B692C9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				263F018C27E2590000D0EEF1 /* FirstViewController.swift */,
+				261BE85B27E37EAB00BE80B0 /* FirstViewControllerExtension.swift */,
+				263A0A6527E5277800F44B51 /* LaunchViewController.swift */,
+				2628F08927E7852700B692C9 /* LaunchViewControllerExtension.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		263F017C27E2590000D0EEF1 = {
+			isa = PBXGroup;
+			children = (
+				263F018727E2590000D0EEF1 /* KonturTestProject */,
+				263F018627E2590000D0EEF1 /* Products */,
+				261BE86327E4EA1A00BE80B0 /* Font */,
+				C44DF5A3329DE41C9BEE2917 /* Pods */,
+				9955658E497BCE79DE931BF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		263F018627E2590000D0EEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263F018527E2590000D0EEF1 /* KonturTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263F018727E2590000D0EEF1 /* KonturTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				263F018827E2590000D0EEF1 /* AppDelegate.swift */,
+				263F018A27E2590000D0EEF1 /* SceneDelegate.swift */,
+				26CEB46427E6416700E55355 /* SettingsViewController.swift */,
+				2628F08727E784A500B692C9 /* Cell */,
+				2628F08F27E7982F00B692C9 /* VC */,
+				2628F08827E784BD00B692C9 /* Help */,
+				263F01A527E2617600D0EEF1 /* Network */,
+				263F01A427E2616B00D0EEF1 /* Model */,
+				263F019127E2590500D0EEF1 /* Assets.xcassets */,
+				263F019327E2590500D0EEF1 /* LaunchScreen.storyboard */,
+				263F019627E2590500D0EEF1 /* Info.plist */,
+			);
+			path = KonturTestProject;
+			sourceTree = "<group>";
+		};
+		263F01A427E2616B00D0EEF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				263F019C27E25A7C00D0EEF1 /* ModelRocket.swift */,
+				263F01A627E2626A00D0EEF1 /* LaunchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		263F01A527E2617600D0EEF1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				263F01A027E260A400D0EEF1 /* NetworkDataFetch.swift */,
+				263F01A227E260D800D0EEF1 /* NetworkRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9955658E497BCE79DE931BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22DA21D7B79F298CB738B15E /* Pods_KonturTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44DF5A3329DE41C9BEE2917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB11B0B444B82A79024631D /* Pods-KonturTestProject.debug.xcconfig */,
+				A41B539B079F271B60146045 /* Pods-KonturTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263F018427E2590000D0EEF1 /* KonturTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263F019927E2590500D0EEF1 /* Build configuration list for PBXNativeTarget "KonturTestProject" */;
+			buildPhases = (
+				DE2039A96585360B118A4A0B /* [CP] Check Pods Manifest.lock */,
+				263F018127E2590000D0EEF1 /* Sources */,
+				263F018227E2590000D0EEF1 /* Frameworks */,
+				263F018327E2590000D0EEF1 /* Resources */,
+				EADBB07FD9B1ACDAC51F5929 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonturTestProject;
+			productName = KonturTestProject;
+			productReference = 263F018527E2590000D0EEF1 /* KonturTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263F017D27E2590000D0EEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					263F018427E2590000D0EEF1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 263F018027E2590000D0EEF1 /* Build configuration list for PBXProject "KonturTestProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263F017C27E2590000D0EEF1;
+			productRefGroup = 263F018627E2590000D0EEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263F018427E2590000D0EEF1 /* KonturTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263F018327E2590000D0EEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261BE87227E4EA3D00BE80B0 /* LabGrotesque-Black.ttf in Resources */,
+				263F019527E2590500D0EEF1 /* LaunchScreen.storyboard in Resources */,
+				261BE87327E4EA3F00BE80B0 /* LabGrotesque-BlackItalic.ttf in Resources */,
+				261BE87927E4EA4E00BE80B0 /* LabGrotesque-Medium.ttf in Resources */,
+				261BE87527E4EA4400BE80B0 /* LabGrotesque-BoldItalic.ttf in Resources */,
+				261BE87B27E4EA5300BE80B0 /* LabGrotesque-Regular.ttf in Resources */,
+				261BE87627E4EA4700BE80B0 /* LabGrotesque-Italic.ttf in Resources */,
+				261BE87F27E4EA5C00BE80B0 /* LabGrotesqueMono.ttf in Resources */,
+				261BE87E27E4EA5A00BE80B0 /* LabGrotesqueMono-Bold.ttf in Resources */,
+				261BE87C27E4EA5600BE80B0 /* LabGrotesque-Thin.ttf in Resources */,
+				261BE87727E4EA4A00BE80B0 /* LabGrotesque-Light.ttf in Resources */,
+				261BE87827E4EA4C00BE80B0 /* LabGrotesque-LightItalic.ttf in Resources */,
+				261BE87427E4EA4200BE80B0 /* LabGrotesque-Bold.ttf in Resources */,
+				261BE87D27E4EA5800BE80B0 /* LabGrotesque-ThinItalic.ttf in Resources */,
+				263F019227E2590500D0EEF1 /* Assets.xcassets in Resources */,
+				261BE87A27E4EA5100BE80B0 /* LabGrotesque-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE2039A96585360B118A4A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KonturTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EADBB07FD9B1ACDAC51F5929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonturTestProject/Pods-KonturTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonturTestProject/Pods-KonturTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KonturTestProject/Pods-KonturTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263F018127E2590000D0EEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263A0A6627E5277800F44B51 /* LaunchViewController.swift in Sources */,
+				2628F08E27E7981B00B692C9 /* LaunchCollectionViewCell.swift in Sources */,
+				261BE86027E4B0D400BE80B0 /* StackViewExtension.swift in Sources */,
+				263F01A727E2626A00D0EEF1 /* LaunchModel.swift in Sources */,
+				263F01A327E260D800D0EEF1 /* NetworkRequest.swift in Sources */,
+				263F018D27E2590000D0EEF1 /* FirstViewController.swift in Sources */,
+				263F01A127E260A400D0EEF1 /* NetworkDataFetch.swift in Sources */,
+				261BE86227E4E74900BE80B0 /* ThemeColors.swift in Sources */,
+				263F019D27E25A7C00D0EEF1 /* ModelRocket.swift in Sources */,
+				263F018927E2590000D0EEF1 /* AppDelegate.swift in Sources */,
+				2628F09127E7D47800B692C9 /* VerticalAlignedLabel.swift in Sources */,
+				26CEB46527E6416700E55355 /* SettingsViewController.swift in Sources */,
+				263F018B27E2590000D0EEF1 /* SceneDelegate.swift in Sources */,
+				263F019F27E25F3A00D0EEF1 /* RocketCollectionViewCell.swift in Sources */,
+				2628F08A27E7852700B692C9 /* LaunchViewControllerExtension.swift in Sources */,
+				261BE85E27E3AE4600BE80B0 /* PagingCollectionViewLayout.swift in Sources */,
+				261BE85C27E37EAB00BE80B0 /* FirstViewControllerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263F019327E2590500D0EEF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263F019427E2590500D0EEF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263F019727E2590500D0EEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		263F019827E2590500D0EEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263F019A27E2590500D0EEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB11B0B444B82A79024631D /* Pods-KonturTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE6KQ6G544;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonturTestProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfa.KonturTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263F019B27E2590500D0EEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41B539B079F271B60146045 /* Pods-KonturTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EE6KQ6G544;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonturTestProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfa.KonturTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263F018027E2590000D0EEF1 /* Build configuration list for PBXProject "KonturTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263F019727E2590500D0EEF1 /* Debug */,
+				263F019827E2590500D0EEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263F019927E2590500D0EEF1 /* Build configuration list for PBXNativeTarget "KonturTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263F019A27E2590500D0EEF1 /* Debug */,
+				263F019B27E2590500D0EEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263F017D27E2590000D0EEF1 /* Project object */;
+}
