@@ -1,2 +1,2 @@
 # TestTask
-Kontur test task
+Test task
