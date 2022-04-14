@@ -86,8 +86,10 @@ enum Rocket: String, Codable {
     case the5E9D0D95Eda69974Db09D1Ed = "5e9d0d95eda69974db09d1ed"
 }
 enum DatePrecision: String, Codable {
+    case day = "day"
     case hour = "hour"
     case month = "month"
+    case quarter = "quarter"
 }
 
 // MARK: - Failure
